@@ -4,15 +4,21 @@ import './App.css'
 import Home from './Pages/Home'
 import NavBar from './Components/NavBar'
 function App() {
-
   return (
     <>
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/nav" element={<NavBar />} />
-        </Routes>
-      </Router>
+      <main
+        className=""
+        style={{
+          minHeight: '100vh',
+        }}
+      >
+        <Router>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/nav" element={<NavBar />} />
+          </Routes>
+        </Router>
+      </main>
     </>
   )
 }

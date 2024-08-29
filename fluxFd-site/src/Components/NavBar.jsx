@@ -1,12 +1,22 @@
-import React from 'react'
+import React from 'react';
 
 function NavBar() {
   return (
-    <div className="flex justify-between">
-        <h1>FluxFusion Devs</h1>
-      <h1 className=""> NavBar</h1>
-    </div>
-  )
+    <nav className="flex items-center justify-between p-4 bg-gray-800">
+      <img src="./title.png" alt="FluxFusion Logo" className="h-16" />
+
+      <div className="flex space-x-8">
+        <a href="#about" className="text-white hover:text-gray-400">About</a>
+        <a href="#services" className="text-white hover:text-gray-400">Services</a>
+        <a href="#technologies" className="text-white hover:text-gray-400">Technologies</a>
+        <a href="#devs" className="text-white hover:text-gray-400">Devs</a>
+      </div>
+
+      <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+        Contact Us
+      </button>
+    </nav>
+  );
 }
 
-export default NavBar
+export default NavBar;
