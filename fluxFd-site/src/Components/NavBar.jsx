@@ -2,8 +2,9 @@ import React from 'react'
 
 function NavBar() {
   return (
-    <div>
-      <h1 className="font-light"> NavBar</h1>
+    <div className="flex justify-between">
+        <h1>FluxFusion Devs</h1>
+      <h1 className=""> NavBar</h1>
     </div>
   )
 }
