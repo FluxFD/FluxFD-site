@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -8,6 +8,7 @@ const Navbar = () => {
     { name: 'About', href: '/about' },
     { name: 'Services', href: '/services' },
     { name: 'Contact', href: '/contact' },
+    { name: 'Projects', href: '/projects' },
   ]
 
   const toggleMenu = () => setIsOpen(!isOpen)

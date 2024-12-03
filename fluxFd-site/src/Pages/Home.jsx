@@ -1,4 +1,3 @@
-import React from "react";
 
 function Home() {
   return (
@@ -11,7 +10,7 @@ function Home() {
           with <span className="text-red-500">Web and Mobile Expertise.</span>
         </p>
         <div className="mt-5 md:w-2/3">
-          <p class="font-light text-base text-wrap">
+          <p className="font-light text-base text-wrap">
             Dedicated to turning your unique ideas into reality by providing
             innovative web and mobile solutions that enhance user experience and
             drive business growth
@@ -19,7 +18,7 @@ function Home() {
         </div>
       </div>
 
-      <div class="grid grid-cols-3 border-2 border-rose-500 rounded-lg divide-x">
+      <div className="grid grid-cols-3 border-2 border-rose-500 rounded-lg divide-x">
         <div>01</div>
         <div>02</div>
         <div>03</div>
