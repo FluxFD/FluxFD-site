@@ -14,7 +14,7 @@ const Navbar = () => {
   const toggleMenu = () => setIsOpen(!isOpen)
 
   return (
-    <nav className="flex items-center justify-between p-4 bg-white bg-opacity-5 backdrop-blur-lg rounded-lg shadow-lg relative">
+    <nav className="flex items-center justify-between p-4 bg-white bg-opacity-5 backdrop-blur-lg rounded-lg shadow-lg relative z-10">
       <div className="w-full px-2 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
@@ -25,13 +25,13 @@ const Navbar = () => {
               className="h-16 flex-shrink-0"
             />
           </div>
-          <div className="hidden sm:flex flex-1 justify-center">
+          <div className="hidden sm:flex flex-1 justify-center z-40">
             <div className="flex space-x-4">
               {menuItems.map((item) => (
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium"
+                  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-2xl font-medium"
                 >
                   {item.name}
                 </a>

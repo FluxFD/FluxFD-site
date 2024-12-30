@@ -1,0 +1,48 @@
+@keyframes slide {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(calc(-200px - 20px)); /* Width + margin */
+  }
+}
+  
+  .animate-slide {
+    animation: slide 2s linear infinite;
+  }
+
+
+@keyframes gradientBg {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes gradientBg {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.tech-box {
+  position: relative;
+  border-radius: 0.5rem;
+  background: transparent;
+  transition: all 0.3s ease;
+}
+
+.tech-box:hover {
+  background: linear-gradient(90deg, #facc15, #f97316, #ef4444, #9333ea);
+  background-size: 400% 100%;
+  animation: gradientBg 0.5s linear forwards;
+}
+
+.tech-box:hover .tech-icon {
+  filter: brightness(0) invert(1);
+}

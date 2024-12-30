@@ -39,19 +39,7 @@ export const ProjectDetails = () => {
 
       {/* Main Content */}
       <div className="relative z-10 mx-auto p-6">
-        <button
-          onClick={() => navigate(-1)}
-          className="fixed top-6 left-6 z-20 flex items-center gap-2 text-white hover:text-gray-300 transition-colors"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="w-8 h-8 md:w-12 md:h-12 lg:w-14 lg:h-14"
-            fill="#FFFFFF"
-            viewBox="0 0 256 256"
-          >
-            <path d="M224,128a8,8,0,0,1-8,8H59.31l58.35,58.34a8,8,0,0,1-11.32,11.32l-72-72a8,8,0,0,1,0-11.32l72-72a8,8,0,0,1,11.32,11.32L59.31,120H216A8,8,0,0,1,224,128Z" />
-          </svg>
-        </button>
+ 
 
         <h1 className="text-3xl font-bold text-center mb-8 text-white">
           {title}
