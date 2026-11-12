@@ -14,12 +14,12 @@ export const site = {
   founded: 2021,
 
   contact: {
-    email: "hello@fluxenovia.com", // TODO
-    salesEmail: "sales@fluxenovia.com", // TODO
-    supportEmail: "support@fluxenovia.com", // TODO
+    email: "fluxfusiondevs@gmail.com", // TODO
+    salesEmail: "fluxfusiondevs@gmail.com", // TODO
+    supportEmail: "fluxfusiondevs@gmail.com", // TODO
     phone: "+63 900 000 0000", // TODO
-    phoneHref: "tel:+639000000000", // TODO
-    address: "Metro Manila, Philippines", // TODO: full business address
+    phoneHref: "tel:+63-924-114-0182", // TODO
+    address: "Los Banos Laguna, Philippines", // TODO: full business address
     hours: "Mon – Sat, 8:00 AM – 6:00 PM (PHT)",
     supportHours: "24/7 for managed-support clients",
   },
